@@ -20,11 +20,13 @@ This project involved the accelerometer data from an experiment with Samsung pho
 
 ## Codebook (based on the codebook from the original data):
 
-<ul><b>Avg.</b> - All variables begin with Avg. to signify that they are the average of a number of measurements for a certain research subject during a certain activity.</ul>
+<ul><b>Avg</b> - All variables begin with Avg. to signify that they are the average of a number of measurements for a certain research subject during a certain activity.</ul>
+<ul><b>Mean</b> - Mean value. </ul>
+<ul><b>Std</b> - Standard deviation.</ul>
 <ul><b>t</b> - Time-based measurement. They were captured at a rate of 50 Hz and then filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.</ul>
 <ul><b>f</b> - Frequency domain signal. Produced by applying a Fast Fourier Transform (FFT) to some of the time-based measurements. </ul>
 <ul><b>Acc</b> - Accelerometer signal, separated into <b>Body</b> and <b>Gravity</b> using a low pass Butterworth filter with a corner frequency of 0.3 Hz.</ul>
-<ul><b>Gyro</b> - Gyroscope signal.
+<ul><b>Gyro</b> - Gyroscope signal.</ul>
 <ul><b>Jerk</b> - Obtained by deriving the body linear acceleration and angular velocity in time.</ul>
 <ul><b>Mag</b> - The magnitude of three-dimensional signals calculated using the Euclidean norm. </ul>
 <ul><b>XAxis</b>, <b>YAxis</b>, or <b>ZAxis</b> - The axis on which the data was recorded.</ul>
