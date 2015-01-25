@@ -29,7 +29,9 @@ This project involved the accelerometer data from an experiment with Samsung pho
 <ul><b>Mag</b> - The magnitude of three-dimensional signals calculated using the Euclidean norm. </ul>
 <ul><b>XAxis</b>, <b>YAxis</b>, or <b>ZAxis</b> - The axis on which the data was recorded.</ul>
 
+
 These are all combined to create the following variables:
+
  [3] "Avg.tBodyAcc.Mean.XAxis"       "Avg.tBodyAcc.Mean.YAxis"      
  [5] "Avg.tBodyAcc.Mean.ZAxis"       "Avg.tGravityAcc.Mean.XAxis"   
  [7] "Avg.tGravityAcc.Mean.YAxis"    "Avg.tGravityAcc.Mean.ZAxis"   
